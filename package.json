@@ -1,0 +1,24 @@
+{
+  "name": "imdb-cli",
+  "version": "1.0.0",
+  "description": "A cli-tool used to grab IMDb data/resources from Web.",
+  "main": "src\\cli.ts",
+  "bin": {
+    "imdb": "./out/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "Benjamin Dogg",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "playwright": "^1.48.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "@types/node": "^22.7.7",
+    "fs-extra": "^11.2.0",
+    "typescript": "^5.6.3"
+  }
+}
